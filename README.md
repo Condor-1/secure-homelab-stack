@@ -49,8 +49,6 @@ The stack runs 24/7 on a Lenovo ThinkCentre Neo 50s running Ubuntu Server
 
 ## Architecture:-
 
-## Architecture
-
 ### Network Overview
 
 ![Network Architecture](architecture/network-diagram.png)
