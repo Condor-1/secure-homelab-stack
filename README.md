@@ -49,7 +49,13 @@ The stack runs 24/7 on a Lenovo ThinkCentre Neo 50s running Ubuntu Server
 
 ## Architecture:-
 
-Project architecture diagrams are available in the `architecture/` directory
+## Architecture
+
+### Network Overview
+
+![Network Architecture](architecture/network-diagram.png)
+
+This setup routes DNS traffic through Pi-hole for network-wide filtering, uses Tailscale for secure remote administration, and uses CrowdSec for monitoring and threat detection.
 
 ---
 
