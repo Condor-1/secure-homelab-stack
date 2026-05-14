@@ -61,8 +61,27 @@ This setup routes DNS traffic through Pi-hole for network-wide filtering, uses T
 
 ## Screenshots:-
 
-Screenshots and dashboards are available in the `screenshots/` directory
+### Pi-hole Dashboard
 
+![Pi-hole Dashboard](screenshots/pihole-dashboard.png)
+
+The Pi-hole dashboard helped me monitor DNS activity, blocked requests, and overall filtering performance across connected devices inside the homelab environment.
+
+---
+
+### CrowdSec Monitoring
+
+![CrowdSec Metrics](screenshots/crowdsec-metrics.png)
+
+This CrowdSec metrics output shows parser activity, automated decisions, and monitoring statistics collected from the Ubuntu Server environment during testing and regular usage.
+
+---
+
+### Tailscale Network
+
+![Tailscale Dashboard](screenshots/tailscale-dashboard.png)
+
+The Tailscale dashboard was mainly used to manage connected devices, test remote connectivity, and configure access control between administrative and non-administrative systems.
 ---
 
 ## Security Considerations:-
